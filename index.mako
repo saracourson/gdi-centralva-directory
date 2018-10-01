@@ -148,6 +148,11 @@
     |
       <span><a href="${data['personal']}">Website</a></span>
     % endif
+    
+    % if data.get('linkedin'):
+    |
+      <span><a href="https://www.linkedin.com/in/${data['linkedin']}">LinkedIn</a></span>
+    % endif    
 
     % if data.get('email'):
     |

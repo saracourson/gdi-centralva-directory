@@ -12,6 +12,7 @@ SCHEMA = Schema({
     Optional('email'): str,
     Optional('personal'): str,
     Optional('github'): str,
+    Optional('linkedin'): str,    
 })
 
 
